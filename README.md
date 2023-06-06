@@ -1,5 +1,9 @@
+# DISCONTINUED
+has meany bugs (most are old ones)
+has less stability and features, also the binaries are outdated
+so I dropped support.
 # SuperPatcherGSI
-Autmated Script to Patch a Super.img with a GSI in python 3 DISCONTINUED
+Autmated Script to Patch a Super.img with a GSI in python 3
 
 ONLY 64-bit Windows
 
