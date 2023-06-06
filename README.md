@@ -1,18 +1,13 @@
 # SuperPatcherGSI
-Autmated Script to Patch a Super.img with a GSI in python 3
+Autmated Script to Patch a Super.img with a GSI in python 3 DISCONTINUED
 
-ONLY 64-bit linux & windows
+ONLY 64-bit Windows
 
 ### Windows (64-bit)
 ```powershell
 python .\SuperPatcherGSI.py -i super.img (input) -o super.new.img (output) -g lineageOS.img (GSI) -s 2 (device slots)
 ```
 python version used to test / build the windows script (Python 3.11.0)
-### Linux (64-bit)
-```bash
-./SuperPatcherGSI-x64.AppImage -i super.img (input) -o super.new.img (output) -g lineageOS.img (GSI) -s 2 (device slots)
-```
-python version used to test / build the linux script (Python 3.10.6)
 ### Command Flags:
 ```
 usage: SuperPatcherGSI.py [-h] [-i INPUT] [-o OUTPUT] [-g GSI] [-s SLOT]
@@ -45,7 +40,5 @@ Invalid sparse file format at header magic / Invalid sparse file format at heade
 
 ### sources:
 using lpmake for windows from (https://github.com/affggh/lpmake_and_lpunpack_cygwin)
-
-using lpmake for linux from (https://ci.android.com/builds/branches/aosp-master/grid)
 
 using lpunpack.py from (https://github.com/unix3dgforce/lpunpack)
